@@ -70,7 +70,7 @@ Clone repo and install requirements.txt in a Python>=3.7.0 environment, includin
     ```Shell
    python train.py --data coco.yaml --epochs 300 --weights '' --cfg yolov5s.yaml  --batch-size 128
     ```
-2. 2023.06.16Unet_seg is the FCN model code, run _01TrainMain.py under the./data_seg dataset to train an FCN model
+2. Unet_seg is the FCN model code, run _01TrainMain.py under the./data_seg dataset to train an FCN model
     ```Shell
    python _01TrainMain.py
     ```
@@ -115,7 +115,7 @@ Clone repo and install requirements.txt in a Python>=3.7.0 environment, includin
 
 3.  Detection results of the cascade structure
     ```Shell
-    python _01CXQ_main.py
+    python cascaded_detection_main.py
     ```
     Evaluation with `POT_ROOT/test_original`. The following is a partial presentation of the pots Cascade prediction.
 
